@@ -1,0 +1,11 @@
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.exe.config
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\PluginInterface.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\System.Drawing.Common.dll
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\bin\Debug\PluginInterface.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb
