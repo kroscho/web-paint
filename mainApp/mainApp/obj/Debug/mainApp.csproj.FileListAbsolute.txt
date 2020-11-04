@@ -1,0 +1,17 @@
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\mainApp.exe.config
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\mainApp.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\mainApp.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\PluginInterface.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\PluginInterface.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\PluginInterface.exe.config
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.csprojAssemblyReference.cache
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.Properties.Resources.resources
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.csproj.GenerateResource.cache
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.csproj.CoreCompileInputs.cache
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.csproj.CopyComplete
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.MainForm.resources
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.exe
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.pdb
+D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.exe.config
