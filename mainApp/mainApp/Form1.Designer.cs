@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.filterMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.pcBox = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBox)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -53,30 +53,30 @@
             this.filterMenu.Size = new System.Drawing.Size(62, 24);
             this.filterMenu.Text = "Filters";
             // 
-            // pictureBox
+            // pcBox
             // 
-            this.pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
-            this.pictureBox.Location = new System.Drawing.Point(0, 28);
-            this.pictureBox.Name = "pictureBox";
-            this.pictureBox.Size = new System.Drawing.Size(476, 600);
-            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox.TabIndex = 1;
-            this.pictureBox.TabStop = false;
+            this.pcBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pcBox.Image = ((System.Drawing.Image)(resources.GetObject("pcBox.Image")));
+            this.pcBox.Location = new System.Drawing.Point(0, 28);
+            this.pcBox.Name = "pcBox";
+            this.pcBox.Size = new System.Drawing.Size(476, 600);
+            this.pcBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcBox.TabIndex = 1;
+            this.pcBox.TabStop = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 628);
-            this.Controls.Add(this.pictureBox);
+            this.Controls.Add(this.pcBox);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,7 +86,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem filterMenu;
-        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.PictureBox pcBox;
     }
 }
 

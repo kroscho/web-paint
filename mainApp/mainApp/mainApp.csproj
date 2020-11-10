@@ -80,10 +80,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ClassLibrary\ClassLibrary\ClassLibrary.csproj">
-      <Project>{13496668-2188-44b8-97f9-1d3dc365393a}</Project>
-      <Name>ClassLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\PluginInterface\PluginInterface\PluginInterface.csproj">
       <Project>{21f7416e-60a7-43ab-b9f6-8b51ea57fe2a}</Project>
       <Name>PluginInterface</Name>

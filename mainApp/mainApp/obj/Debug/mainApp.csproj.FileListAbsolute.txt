@@ -12,6 +12,3 @@ D:\Desktop\ПМИ\3 курс\Компонентное программирова
 D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.exe
 D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.pdb
 D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\obj\Debug\mainApp.MainForm.resources
-D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.exe
-D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.pdb
-D:\Desktop\ПМИ\3 курс\Компонентное программирование\lab3\mainApp\mainApp\bin\Debug\ClassLibrary.exe.config

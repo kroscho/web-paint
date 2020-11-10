@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mainApp", "mainApp\mainApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInterface", "..\PluginInterface\PluginInterface\PluginInterface.csproj", "{21F7416E-60A7-43AB-B9F6-8B51EA57FE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary\ClassLibrary.csproj", "{13496668-2188-44B8-97F9-1D3DC365393A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj", "{72C631EB-7E1C-43C8-8C02-66F2BA390748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{21F7416E-60A7-43AB-B9F6-8B51EA57FE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21F7416E-60A7-43AB-B9F6-8B51EA57FE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21F7416E-60A7-43AB-B9F6-8B51EA57FE2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13496668-2188-44B8-97F9-1D3DC365393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13496668-2188-44B8-97F9-1D3DC365393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13496668-2188-44B8-97F9-1D3DC365393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13496668-2188-44B8-97F9-1D3DC365393A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C631EB-7E1C-43C8-8C02-66F2BA390748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C631EB-7E1C-43C8-8C02-66F2BA390748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C631EB-7E1C-43C8-8C02-66F2BA390748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C631EB-7E1C-43C8-8C02-66F2BA390748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

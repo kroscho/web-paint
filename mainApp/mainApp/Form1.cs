@@ -9,15 +9,23 @@ using PluginInterface;
 
 namespace mainApp
 {
-    public partial class MainForm : Form
+    public partial class MainForm : Form, IMainApp
     {
         private readonly Dictionary<string, IPlugin> plugins = new Dictionary<string, IPlugin>();
         public MainForm()
         {
             InitializeComponent();
             FindPlugins();
+            CreatePluginsMenu();
         }
 
+        public Bitmap Image
+        {
+            get => (Bitmap)pcBox.Image;
+
+            set => pcBox.Image = value;
+        }
+        //Метод FindPlugins с помощью рефлексии находит плагины в папке с приложением и загружает их сборки. 
         void FindPlugins()
         {
             // папка с плагинами
@@ -51,7 +59,7 @@ namespace mainApp
         private void OnPluginClick(object sender, EventArgs args)
         {
             IPlugin plugin = plugins[((ToolStripMenuItem)sender).Text];
-            plugin.Transform((Bitmap)pictureBox.Image);
+            plugin.Transform(this);
         }
 
         private void CreatePluginsMenu()
@@ -65,8 +73,5 @@ namespace mainApp
                 filterMenu.DropDownItems.Add(item);
             }
         }
-
-
-
     }
 }
