@@ -6,7 +6,7 @@ namespace PluginInterface
     {
         string Name { get; }
         string Author { get; }
-        void Transform(Bitmap app);
+        void Transform(IMainApp app);
     }
 }
 
