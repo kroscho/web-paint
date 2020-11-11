@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mainApp", "mainApp\mainApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginInterface", "..\PluginInterface\PluginInterface\PluginInterface.csproj", "{21F7416E-60A7-43AB-B9F6-8B51EA57FE2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj", "{72C631EB-7E1C-43C8-8C02-66F2BA390748}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1\ClassLibrary1.csproj", "{72C631EB-7E1C-43C8-8C02-66F2BA390748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
