@@ -12,6 +12,9 @@ namespace mainApp
     public partial class MainForm : Form, IMainApp
     {
         private readonly Dictionary<string, IPlugin> plugins = new Dictionary<string, IPlugin>();
+       
+        List<Type> types = new List<Type>();
+
         public MainForm()
         {
             InitializeComponent();
@@ -37,14 +40,18 @@ namespace mainApp
             foreach (string file in files)
                 try
                 {
+                    //Сборку для проверки на наличие плагина загружаем методом LoadFile и в цикле проходим по всем типам, определенным в сборке.
                     Assembly assembly = Assembly.LoadFile(file);
 
                     foreach (Type type in assembly.GetTypes())
                     {
                         Type iface = type.GetInterface("PluginInterface.IPlugin");
-
+                        
+                        //Если тип содержит интерфейс IPlugin
                         if (iface != null)
                         {
+                            types.Add(type);
+                            //создаем экземпляр типа
                             IPlugin plugin = (IPlugin)Activator.CreateInstance(type);
                             plugins.Add(plugin.Name, plugin);
                         }
@@ -63,15 +70,24 @@ namespace mainApp
         }
 
         private void CreatePluginsMenu()
-        {
-            var item = new ToolStripMenuItem("Плагины");
-
-            foreach (var name in plugins.Keys)
+        {                  
+            foreach (var item in plugins)
             {
-                var pluginItem = new ToolStripMenuItem(name, null, OnPluginClick);
-                item.DropDownItems.Add(pluginItem);
-                filterMenu.DropDownItems.Add(item);
+                var it = filterMenu.DropDownItems.Add(item.Key);
+                it.Click += OnPluginClick;
             }
+        }
+        
+        private void filterMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pluginsInfoMenuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PluginsInfo plugForm = new PluginsInfo(plugins, types);
+
+            plugForm.ShowDialog(this);
         }
     }
 }
